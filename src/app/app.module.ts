@@ -5,14 +5,9 @@ import { AppComponent } from './app.component';
 import { ClockComponent } from './clock/clock.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    ClockComponent
-  ],
-  imports: [
-    BrowserModule
-  ],
+  declarations: [AppComponent, ClockComponent],
+  imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

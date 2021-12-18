@@ -1,7 +1,7 @@
 <div class="container">
   <div class="time__container">
-    <span class="time">{{ time }}</span>
-    <span class="ampm">{{ ampm }}</span>
+    <span class="time">{{ date | date: "h:mm:ss" }}</span>
+    <span class="ampm">{{ date | date: "aa" }}</span>
   </div>
-  <p class="day">{{ today }}</p>
+  <p class="day">{{ date | date: "EEEE, MMMM d" }}</p>
 </div>
